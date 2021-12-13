@@ -1,5 +1,7 @@
 
-
+body {
+    background-image: url(./img/background.png);
+  }
 .navbar{
     background-color:#EDCFC0;
     overflow:hidden;
@@ -12,7 +14,6 @@
     text-align:center;
     padding:14px;
     text-decoration:none;
-    font-size:17px;
   }
   
   .navbar ul{
@@ -35,7 +36,6 @@
   .side-nav a{
     padding:10px 10px 10px 30px;
     text-decoration:none;
-    font-size:22px;
     color:black;
     display:block;
     transition:0.3s;
@@ -43,8 +43,13 @@
   .side-nav .btn-close{
     position:absolute;
     right:1rem;
-    font-size:36px;
-    margin-left:50px;
+    font-size:46px;
+  }
+  .footerlogo1{
+    width:80px;
+    bottom:0;
+    position: absolute;
+    justify-self: center;
   }
   @media screen and (max-width: 700px) {
     .navbar ul {
