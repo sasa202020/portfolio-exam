@@ -1,6 +1,9 @@
 
 body {
     background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
   }
 .navbar{
     background-color:#EDCFC0;
@@ -47,8 +50,16 @@ body {
   }
   .footerlogo1{
     width:80px;
-    bottom:0;
-    position: absolute;
+   bottom: 0px;
+    
+    
+    justify-self: center;
+  }
+  .footerlogo2{
+    width:80px;
+  
+   
+    
     justify-self: center;
   }
   @media screen and (max-width: 700px) {
