@@ -1,19 +1,28 @@
 
+/*  style for all pages start*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
 body {
     background-image: url(./img/background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
+    width: 100%;
+   
   }
 .navbar{
-    background-color:#EDCFC0;
     overflow:hidden;
   }
   
   .navbar a{
     float:right;
     display:block;
-    color:black;
     text-align:center;
     padding:14px;
     text-decoration:none;
@@ -30,7 +39,7 @@ body {
     z-index:1;
     top:0;
     right:0;
-    background-color:#edcfc0;
+    background-color:rgb(75, 75, 75);
     opacity:0.9;
     overflow-x:hidden;
     transition:0.5s;
@@ -39,7 +48,7 @@ body {
   .side-nav a{
     padding:10px 10px 10px 30px;
     text-decoration:none;
-    color:black;
+    
     display:block;
     transition:0.3s;
   }
@@ -48,20 +57,57 @@ body {
     right:1rem;
     font-size:46px;
   }
-  .footerlogo1{
-    width:80px;
-   bottom: 0px;
-    
-    
-    justify-self: center;
-  }
-  .footerlogo2{
-    width:80px;
-  
-   
-    
-    justify-self: center;
-  }
+ 
+footer{
+    margin-top: 100vh;
+    display: flex;
+    justify-content: center;
+}
+/*  style for all pages start*/
+/*  style for homepage start*/
+
+h1{
+    font-size: 2rem;
+   text-decoration: none;
+}
+.content-wrapper .content1{
+    width: 100vw;
+}
+.text-wrapper{
+    width: 100%;
+    position:relative;
+    margin-top: -40%;
+}
+.text-wrapper h1{
+    text-align: center;
+}
+.content-wrapper2 .content2{
+    width: 100vw;
+    margin-top: 38%;
+}
+.text-wrapper2{
+    width: 100%;
+    position:relative;
+    margin-top: -28%;
+}
+.text-wrapper2 h1{
+    text-align: center;
+}
+.content-wrapper3 .content3{
+    width: 100vw;
+    margin-top: 26%;
+}
+.text-wrapper3{
+    width: 100%;
+    position:relative;
+    margin-top: -40%;
+}
+.text-wrapper3 h1{
+    text-align: center;
+    text-decoration: none;
+}
+/*  style for homepage end*/
+/*  mediaq for nav bar start*/
   @media screen and (max-width: 700px) {
     .navbar ul {
       display:none;
@@ -72,3 +118,4 @@ body {
       display:none;
     }
   }
+  /*  mediaq for nav bar end*/
