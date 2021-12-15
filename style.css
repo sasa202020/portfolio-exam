@@ -58,7 +58,8 @@ body {
   }
  
 footer{
-    margin-top: 100vh;
+    margin-bottom: 2vh;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
 }
@@ -104,11 +105,20 @@ h1{
     text-align: center;
     text-decoration: none;
 }
-a1{
+.a1{
     text-decoration: none;
     font-size: 2rem;
 }
+/*  homepage hotfix*/
+.footerimg{
+    margin-top: 8rem;
+}
 /*  style for homepage end*/
+/*  STYLE FOR DESKTOP  START*/
+.footerd{
+margin-bottom: 4vh;
+}
+/*  STYLE FOR DESKTOP DESKTOP END*/
 /*  style for uxui start*/
 h2{
     font-size: 1.6rem;
@@ -138,6 +148,33 @@ h3{
     margin-top: 1rem;
 }
 /*  style vfx page end*/
+/*  style photography page start*/
+.photos{
+    margin-top: 1.5rem;
+    border-radius: 20px;
+}
+h3{
+    margin-top: 2rem;
+}
+/*  style photography page end*/
+/*  style about page start*/
+h4{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px 40px 20px;
+}
+.me{
+    display: flex;
+    margin: auto;
+    border-radius: 50px;
+}
+.abouttext{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+/*  style about page end*/
 /*  mediaq for nav bar start*/
   @media screen and (max-width: 700px) {
     .navbar ul {
@@ -150,3 +187,10 @@ h3{
     }
   }
   /*  mediaq for nav bar end*/
+  /*  mediaq for homepage glhf start*/
+            @media screen and (min-width: 701px) {
+                .content3, .content2, .content1, footer {
+                    display:none;
+                  }
+                }
+  /*  mediaq for homepage end*/
