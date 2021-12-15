@@ -115,8 +115,42 @@ h1{
 }
 /*  style for homepage end*/
 /*  STYLE FOR DESKTOP  START*/
-.footerd{
+/*.footerd{
 margin-bottom: 4vh;
+}     */
+.grid{
+    display: grid;
+    grid-template-columns: 33.3% 33.4% 33.3%;
+    grid-template-rows: 100vh;
+   
+}
+.themes{
+    margin: auto;
+    cursor: pointer;
+    
+}
+.themes:hover{
+    opacity: 1;
+}
+.a3, .a4, .a5{
+    text-decoration: none;
+    font-size: 2rem;
+}
+/*.a3:hover{
+    background-image:url(img/whiteballerina.jpg);
+    background-size: 100%;
+}*/
+.a3:hover:before {
+    content: '';
+    background: url(img/whiteballerina.jpg);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    position: absolute;
+    width: 33%;  
+    height: 100vh;
+    top: 0;
+    left: 0%;
+    opacity:1;
 }
 /*  STYLE FOR DESKTOP DESKTOP END*/
 /*  style for uxui start*/
