@@ -1,0 +1,45 @@
+p{
+color: black;
+
+}
+h1{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 350%;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;}
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+
+}
+body{
+    
+    background-color: rgb(82, 82, 255);
+    background-image: url('nice\ smile.jpg');    /* just random pic */
+    position:relative;        /* footer posotioning */
+    min-height: 100vh;        /* footer posotioning */
+    padding-bottom: 68px;
+}
+header {text-align: center;   /* not working :( */
+}
+/*#footer {
+    position:absolute;      not working :( 
+    bottom:0;
+    width:100%;
+    height:60px;   
+    background:#6cf;
+ }*/
+ footer{ 
+text-align: center;
+background-color: grey;
+color:wheat;
+padding: 25px;
+position:absolute;          /* footer posotioning */
+bottom: 0;
+width:100%;
+ }

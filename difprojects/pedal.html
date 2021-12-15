@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Save water Save Earth</title>
+        <link rel="icon" href="./img/motoaqua.png" type="img/x-icon">
+        <meta name="discription" content="Awesome water save solution">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content=' web design blog,SaveWater,stop waste water'>
+        <link rel="stylesheet" href="stylepedal.css">
+        <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+        <script src='./javascript.js' async></script>
+        <script src="./pedal.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>   
+        <link href="http://fonts.cdnfonts.com/css/aqua-grotesque" rel="stylesheet">
+    </head>
+    <body>      
+        <header>
+            <!-- Navigation for Mobile-->
+            <nav>
+                <section class="mobile-Nav">
+                    <img onclick="mobileCart()" id="shopMobiel" class = 'shopIcon' src="./img/iconShop.png" width="20%" alt="icon shop">
+                    <img class='logo' src="./img/motoaqua.png" alt="logo">
+                    <div id="burger-button" class= 'dropBurger' onclick = 'openBurgerMenu()'>
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <div id="myDropDown" class="dropDownContent">
+                        <a href="./product.html">Store</a>
+                        <a href="./about.html">About</a>
+                        <a href="./contact.html">Contact</a>
+                        <a href="./community.html">Community</a>
+                    </div>
+                </section>
+                <!-- Nav for Web!!! -->
+                <section class= 'webNav'>
+                    <a id= 'ShopButton' style = 'order: 3 ;flex-grow: 2' href="#" onclick="showProduct()">Shop</a>
+                    <div style = 'order: 1; flex-grow: 100' class="motoImg">
+                        <img style = 'order: 1; flex-grow: 100' class= 'motoImg' src="./img/motoaqua.png" alt="logo fail">
+                    </div>
+                    <div class="dropdown">
+                        <div style = 'order: 0 ;flex-grow: 2' class="dropBtn" onclick="openMore()" href="#">More
+                            <div id='webDropDown' class= 'dropdown-content'>
+                                <a href="./product.html">Store</a>
+                                <a href="./about.html">About</a>
+                                <a href="./contact.html">Contact</a>
+                                <a href="./community.html">Community</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a style = 'order: 2 ;flex-grow: 2'href="#">Login</a>
+                    <a style="order: 4 ;flex-grow: 1" href="#" onclick="showCart()" class = 'trolley'>
+                        <img  class= 'iconshop' src="./img/iconShop.png" alt="icon shop">
+                        <div class="total-item-in-cart">
+                            0
+                        </div>
+                    </a>
+                </section>
+                <div id='shop'>
+                    <div class="shop-items">
+                        
+                    </div>
+                </div>
+                <!-- Here start Cart-->
+                <section id = 'cart' class='container content-section'>
+                    <h2 class="section-header">CART</h2>
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">ITEM</span>
+                        <span class="cart-price cart-header cart-column">PRICE</span>
+                        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                    </div>
+                    <div class="cart-items">                        
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Total ( 0 items)</strong>
+                        
+                    </div>
+                    <button class="btn btn-primary btn-purchase" type="button">Proceed to checkout</button>
+                </section>
+            </nav>
+        </header>
+        </section>
+    </section>
+    <section class='howItWorks'>
+        <h1 class="productheading">How it works</h1>
+        <!-- sorry for video bad quality  ;(-->
+        <video src="./img/finalshit.mp4" autoplay controls="1" muted width="100%" ></video>
+    </section>
+    <section class= 'howEasyToInstal'>
+        <h1 class="productheading">Quick guide how to instal our pedal:</h1>
+        <img class="faucetimg" src="./img/faucet2.jpg" alt="how to instal" width="45%">
+    </section>
+  
+     <h1 class="productheading">Preinstalled sounds</h1>
+     <br>
+        <section class= 'soundsgallery'>
+         <section class ="flexingsounds1" onclick = 'playAudio("./img/carSound.wav")'>
+            <img class="sound1"src="./img/soundicon2.png" width="70px" alt="soundIconFail">
+            <p class="movingtext1">CarSound</p>
+         </section>
+         <section class ="flexingsounds2" onclick = 'playAudio("./img/relaxingMelody.mp3")'>
+             <img class="sound2"src="./img/soundicon2.png" width="70px" alt="soundIconFail">
+             <p class="movingtext2">Relaxing Melody</p>
+         </section>
+         <section class ="flexingsounds3" onclick = 'playAudio("./img/shockwave.mp3")'>
+             <img class="sound3"src="./img/soundicon2.png" width="70px" alt="soundIconFail">
+             <p class="movingtext3">Marshmello - Shockwave</p>
+         </section>
+    </section>
+    <h1 class="moreh1">And more to come !</h1>
+<section class="textfaq">
+    <details open>
+ <summary>Is it worth it to buy faucet pedal</summary>
+   <p>It will pay off on average in year. But its priceless for earth &#x1F31D.</p>
+</details>
+<details>
+ <summary>For which countries delivery is available</summary>
+   <p>Delivery is available through europe only</p>
+</details>
+<details>
+ <summary>What if i installed it incorrectly ?</summary>
+   <p>Better luck next time then</p>
+ </div>
+</details>
+<details>
+ <summary>What should I do if pedal broke ?</summary>
+   <p>If warrant is still up we will happy to send you new pedal 
+       but before please contact customer support</p>
+</details>
+<details>
+ <summary>How long is warranty ?</summary>
+   <p>Warranty for all our products is 6 moths</p>
+
+</details>
+</section>
+<section class='subscribe'>
+ <p>Subscribe with your E-mail and <span>get 20% off</span></p>
+ <input type="e-mail" placeholder="Please enter your E-Mail">
+ <div class= 'socialIcons'>
+     <img src="./img/twiter.png" alt="twiter">
+     <img src="./img/facebook.png" alt="facebook">
+     <img src="./img/instagram.png" alt="instagram">
+     <img src="./img/youtube.png" alt="youtube">
+ </div>
+</section>
+<footer>
+<p>Copyright &copy; 2021, <br> <span>Moto</span> <span class='Aqua'>Aqua</span> </p>
+</footer>
+       <script>
+            /* Here is code for navigation bar */
+            function openBurgerMenu() {
+                document.getElementById("myDropDown").classList.toggle("show");
+                document.getElementById('burger-button').classList.toggle('change');
+            }
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropBurger')) {
+                    let dropdowns = document.getElementsByClassName("dropDownContent");
+                    let i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        let openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+            // JS for sound
+            function playAudio(url) {
+                new Audio(url).play();
+                }
+       </script>
+    </body>
+</html>

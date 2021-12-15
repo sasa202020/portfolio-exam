@@ -5,7 +5,7 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 body {
     background-image: url(./img/background.png);
@@ -104,11 +104,31 @@ h1{
     text-align: center;
     text-decoration: none;
 }
-a{
+a1{
     text-decoration: none;
     font-size: 2rem;
 }
 /*  style for homepage end*/
+/*  style for uxui start*/
+h2{
+    font-size: 1.6rem;
+    margin: 20px 20px 20px 20px;
+}
+.uxuicontent{
+    text-align: center;
+}
+button{
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 10px;
+}
+.a2{
+    color: black;
+    text-decoration: none;
+}
+/*  style for uxui end*/
 /*  mediaq for nav bar start*/
   @media screen and (max-width: 700px) {
     .navbar ul {
