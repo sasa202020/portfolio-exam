@@ -153,7 +153,9 @@ margin-bottom: 4vh;
     opacity:1;
 }
 .footerd{
-    bottom: 5vh;
+    bottom: 20%;
+    text-decoration: none;
+    padding: 2%;
 }
 /*  STYLE FOR HOMEPAGE DESKTOP DESKTOP END*/
 /*  style for uxui start*/
