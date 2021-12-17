@@ -18,7 +18,9 @@ body {
 .navbar{
     overflow:hidden;
   }
-  
+.navbar-nav{
+    padding:12px;
+}
   .navbar a{
     float:right;
     display:block;
@@ -153,9 +155,9 @@ margin-bottom: 4vh;
     opacity:1;
 }
 .footerd{
-    bottom: 20%;
+    bottom: -20%;
     text-decoration: none;
-    padding: 2%;
+    padding: 16px;
 }
 /*  STYLE FOR HOMEPAGE DESKTOP DESKTOP END*/
 /*  style for uxui start*/
@@ -227,9 +229,24 @@ h4{
   }
   /*  mediaq for nav bar end*/
   /*  mediaq for homepage glhf start*/
-            @media screen and (min-width: 701px) {
-                .content3, .content2, .content1, footer {
-                    display:none;
-                  }
-                }
+                @media screen and (min-width: 701px) {
+                    .content3, .content2, .content1, footer {
+                        display:none;
+                      }
+                    }
   /*  mediaq for homepage end*/
+  /* MEDIAQ FOR HOMEPAGE DESKTOP START*/
+    @media screen and (max-width: 702x) {
+        .themes, .footerd{
+           display:none;
+         }
+       }
+   /* MEDIAQ FOR HOMEPAGE DESKTOP END*/
+    /* MEDIAQ FOR PHOTOGRAPHY DESKTOP START*/
+    @media screen and (min-width: 702px) {
+        .photos{
+           width: 70%;
+           justify-content: center;
+         }
+        }
+      /* MEDIAQ FOR PHOTOGRAPHY DESKTOP END*/
